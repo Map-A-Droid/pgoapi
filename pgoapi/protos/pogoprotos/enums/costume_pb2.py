@@ -66,6 +66,14 @@ _COSTUME = _descriptor.EnumDescriptor(
       name='WINTER_2018', index=8, number=8,
       options=None,
       type=None),
+    _descriptor.EnumValueDescriptor(
+      name='FEB_2019', index=9, number=9,
+      options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='MAY_2019_NOEVOLVE', index=10, number=10,
+      options=None,
+      type=None),
   ],
   containing_type=None,
   options=None,
@@ -84,6 +92,8 @@ SUMMER_2018 = 5
 FALL_2018 = 6
 NOVEMBER_2018 = 7
 WINTER_2018 = 8
+FEB_2019 = 9
+MAY_2019_NOEVOLVE = 10
 
 
 DESCRIPTOR.enum_types_by_name['Costume'] = _COSTUME
